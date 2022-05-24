@@ -1,0 +1,55 @@
+#backgroundRegisterForm {
+    align-content: center;
+    width: 100vw;
+    height : 100vh;
+    background: linear-gradient(
+            rgba(255,255,255,0.2),
+            rgba(255,255,255,0.3)
+        ),
+        url("https://cache.marieclaire.fr/data/photo/w1200_h630_c17/5w/fleurs-domicile.jpg ") center;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#registerForm {
+    background-color: azure;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    border-radius: 2px;
+    margin: 100px;
+}
+
+#registerForm > input {
+    flex:1;
+    min-width: 625px;
+    margin: 20px 10px 0 0;
+    padding: 10px;
+}
+
+#registerForm > button {
+    flex: 1;
+    min-width: 625px;
+    border: none;
+    padding: 10px;
+    background-color: #20B2AA;
+    color: white;
+    cursor: pointer;
+    margin: 40px 10px 0 0;
+    border-radius: 2px;
+}
+
+#registerSuccess {
+    font-family: "Microsoft GothicNeo", Microsoft, sans-serif;
+    margin: 30px 50px 20px 0;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#registerTitle {
+    font-family: "Microsoft GothicNeo", Microsoft, sans-serif;
+    padding-top: 30px;
+    font-weight: bold;
+}

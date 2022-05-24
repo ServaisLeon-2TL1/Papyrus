@@ -1,0 +1,16 @@
+[
+    {
+        "ref":1,
+        "name":"lilac",
+        "color":"purple",
+        "price":"4.50",
+        "stock":25
+        },
+    {
+        "ref":2,
+        "name":"rose",
+        "color":"red",
+        "price":"3.50",
+        "stock":20
+        }
+]

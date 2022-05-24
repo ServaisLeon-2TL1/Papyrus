@@ -1,0 +1,33 @@
+.bunchContentsItems {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: azure;
+    background-size: cover;
+}
+
+.bunchContentsItem {
+    width: 700px;
+    height: 250px;
+    font-family: "Microsoft GothicNeo", Microsoft, sans-serif;
+    font-size: larger;
+    display: flex;
+    margin: 15px;
+    padding: 15px;
+    border: solid;
+    border-width: 0 0 1px 0;
+}
+
+.bunchContentsItem > button {
+    flex: 1;
+    border: none;
+    padding: 10px;
+    background-color: #20B2AA;
+    color: white;
+    cursor: pointer;
+    margin: 40px;
+    border-radius: 2px;
+}
+
+.bunchContentsItem > p {
+    margin: 10px;
+}

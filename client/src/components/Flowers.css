@@ -1,0 +1,31 @@
+.flowerItems {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: azure;
+    background-size: cover;
+}
+
+.flowerItem {
+    width: 700px;
+    height: 250px;
+    font-family: "Microsoft GothicNeo", Microsoft, sans-serif;
+    font-size: larger;
+    display: flex;
+    margin: 15px;
+    padding: 15px;
+    border: solid;
+    border-width: 0 0 1px 0;
+}
+
+.flowerItem > img {
+    margin: 10px 10px 10px 70px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    padding: 10px;
+    background-color: white;
+}
+
+.flowerItem > p {
+    margin: 10px;
+}
